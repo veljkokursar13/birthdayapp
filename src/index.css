@@ -318,7 +318,7 @@ ul {
 
 /* navbar */
 .navbar {
-  background: var(--white);
+  background: rgba(255, 255, 255, 0.95);
   padding: 1rem 2rem;
   box-shadow: var(--shadow-1);
   margin-bottom: 2rem;
@@ -326,7 +326,6 @@ ul {
   top: 0;
   z-index: 1000;
   backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.95);
 }
 
 .nav-center {
@@ -410,6 +409,7 @@ ul {
   padding: 0.5rem 1rem;
   border-radius: var(--borderRadius);
   transition: var(--transition);
+  background: transparent;
 }
 
 .nav-link:hover {
@@ -446,6 +446,8 @@ ul {
   color: var(--white);
   font-size: 1.2rem;
   padding: 1rem 2rem;
+  background: transparent;
+  border-radius: 8px;
 }
 
 .mobile-nav .nav-link:hover,
@@ -564,6 +566,7 @@ main {
   .navbar {
     padding: 0.75rem 1rem;
     backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.95);
   }
   
   .nav-center {
